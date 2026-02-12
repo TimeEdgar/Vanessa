@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Quieres ser mi San Valentín?</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #ffe6ea;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .minion {
+      position: absolute;
+      bottom: 20px;
+      width: 120px;
+    }
+
+    .box {
+      background: rgba(255,255,255,0.95);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 10px 25px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .yes {
+      background: #4CAF50;
+      color: white;
+    }
+
+    .yes:hover {
+      transform: scale(1.1);
+    }
+
+    .no {
+      background: #f44336;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>¿Quieres ser mi San Valentín? 💕</h1>
+    <button class="yes" onclick="alert('Sabía que dirías que sí 💛🥹')">Sí</button>
+    <button class="no" onclick="alert('Eso no era una opción 😜')">No</button>
+  </div>
+
+  <!-- Imagen local subida al mismo repositorio -->
+  <img class="minion" src="minion.png" alt="Minion con flores">
+
+</body>
+</html>
